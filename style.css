@@ -478,7 +478,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 .desktop .info-hotspot.visible .info-hotspot-header,
 .desktop.no-touch .info-hotspot.visible .info-hotspot-header:hover {
-  width: 300px;
+  width: 260px;
   border-radius: 5px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
