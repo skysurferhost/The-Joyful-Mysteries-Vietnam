@@ -714,8 +714,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   right: 50px;
 
   /* allow multiple lines, then scroll */
-  min-height: 50px;
-  max-height: 55px;            /* 👈 increase/decrease if you want */
+  min-height: 40px;
+  max-height: 45px;            /* 👈 increase/decrease if you want */
 
   padding: 6px 10px;
 
