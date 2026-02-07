@@ -519,7 +519,6 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
               padding 0s 0.4s;
 }
 
-/* (kept as-is) */
 .desktop .info-hotspot.visible .info-hotspot-title-wrapper,
 .desktop.no-touch .info-hotspot .info-hotspot-header:hover .info-hotspot-title-wrapper {
   width: 220px;
@@ -707,35 +706,37 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   margin: 5%;
 }
 
-/* ✅ KEY FIX: make the TOP TITLE AREA scrollable (red circle) */
+/* ✅ UPDATED: Scrollable title area */
 .info-hotspot-modal .info-hotspot-title-wrapper {
   position: absolute;
   top: 0;
   left: 50px;
   right: 50px;
-  width: auto;
 
-  height: 50px;                 /* keep header height */
+  /* allow multiple lines, then scroll */
+  min-height: 50px;
+  max-height: 70px;            /* 👈 increase/decrease if you want */
+
   padding: 6px 10px;
 
-  overflow-y: auto;             /* ✅ show scrollbar when needed */
+  overflow-y: auto;            /* ✅ scrollbar appears when needed */
   overflow-x: hidden;
 
-  white-space: normal;          /* ✅ allow wrapping */
+  white-space: normal;
   word-break: break-word;
   line-height: 1.2em;
 
-  -webkit-overflow-scrolling: touch; /* smooth mobile scroll */
+  -webkit-overflow-scrolling: touch;
 }
 
-/* ✅ remove the vertical-centering hack that prevents proper scroll */
+/* ✅ REMOVE centering hack that causes clipping/missing words */
 .info-hotspot-modal .info-hotspot-title-wrapper:before {
-  content: none;
-  display: none;
+  content: none !important;
+  display: none !important;
 }
 
 .info-hotspot-modal .info-hotspot-title {
-  display: block;               /* ✅ makes wrapping/scroll behave properly */
+  display: block;
   white-space: normal;
   word-break: break-word;
 
@@ -811,6 +812,11 @@ body.view-control-buttons .viewControlButton {
   body.view-control-buttons .viewControlButton {
     display: none;
   }
+
+  /* Optional: a bit more room for mobile title scrolling */
+  .info-hotspot-modal .info-hotspot-title-wrapper {
+    max-height: 80px;
+  }
 }
 
 .viewControlButton .icon {
@@ -822,9 +828,21 @@ body.view-control-buttons .viewControlButton {
 }
 
 /* Center is at margin-left: -20px */
-.viewControlButton-1 { margin-left: -145px; }
-.viewControlButton-2 { margin-left: -95px; }
-.viewControlButton-3 { margin-left: -45px; }
-.viewControlButton-4 { margin-left: 5px; }
-.viewControlButton-5 { margin-left: 55px; }
-.viewControlButton-6 { margin-left: 105px; }
+.viewControlButton-1 {
+  margin-left: -145px;
+}
+.viewControlButton-2 {
+  margin-left: -95px;
+}
+.viewControlButton-3 {
+  margin-left: -45px;
+}
+.viewControlButton-4 {
+  margin-left: 5px;
+}
+.viewControlButton-5 {
+  margin-left: 55px;
+}
+.viewControlButton-6 {
+  margin-left: 105px;
+}
