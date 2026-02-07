@@ -505,6 +505,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   margin: 5%;
 }
 
+/* ✅ UPDATED: make title area capable of scrolling when it becomes tall */
 .info-hotspot .info-hotspot-title-wrapper {
   position: absolute;
   left: 40px;
@@ -519,16 +520,24 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
               padding 0s 0.4s;
 }
 
+/* ✅ When expanded/visible, allow multi-line + scrolling */
 .desktop .info-hotspot.visible .info-hotspot-title-wrapper,
 .desktop.no-touch .info-hotspot .info-hotspot-header:hover .info-hotspot-title-wrapper {
   width: 220px;
-  padding: 0 5px;
+  padding: 6px 8px;                 /* a little room so text isn’t cramped */
+  height: auto;                      /* let it grow */
+  max-height: 110px;                 /* 👈 adjust to taste */
+  overflow-y: auto;                  /* 👈 scroll when too tall */
+  overflow-x: hidden;
+  white-space: normal;               /* 👈 allow wrapping */
+  -webkit-overflow-scrolling: touch; /* smooth iOS scroll */
   -webkit-transition: width 0s 0.4s,
                       padding 0s 0.4s;
   transition: width 0s 0.4s,
               padding 0s 0.4s;
 }
 
+/* Keep vertical centering helper, but it won’t force single-line anymore */
 .info-hotspot .info-hotspot-title-wrapper:before {
   content: '';
   display: inline-block;
@@ -536,9 +545,12 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   height: 100%;
 }
 
+/* ✅ UPDATED: allow title to wrap naturally */
 .info-hotspot .info-hotspot-title {
   display: inline-block;
   vertical-align: middle;
+  white-space: normal;    /* 👈 allow wrapping */
+  word-break: break-word; /* 👈 avoid overflow on long words */
 
   -moz-user-select: text;
   -webkit-user-select: text;
@@ -706,14 +718,21 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   margin: 5%;
 }
 
+/* ✅ UPDATED (mobile modal title): scroll when title is long */
 .info-hotspot-modal .info-hotspot-title-wrapper {
   position: absolute;
   top: 0;
   left: 50px;
   right: 50px;
   width: auto;
-  height: 50px;
-  padding: 0 10px;
+  height: auto;
+  max-height: 70px;                 /* 👈 adjust to taste */
+  padding: 8px 10px;
+  overflow-y: auto;                  /* 👈 scroll */
+  overflow-x: hidden;
+  white-space: normal;               /* allow wrapping */
+  word-break: break-word;
+  -webkit-overflow-scrolling: touch; /* smoother on iOS */
 }
 
 .info-hotspot-modal .info-hotspot-title-wrapper:before {
