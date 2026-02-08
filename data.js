@@ -272,3 +272,15 @@ var APP_DATA = {
     "viewControlButtons": true
   }
 };
+
+/* Bigger text in the info hotspot content */
+.info-hotspot .info-hotspot-title,
+.info-hotspot-modal .info-hotspot-title {
+  font-size: 18px;   /* title size */
+}
+
+.info-hotspot .info-hotspot-text,
+.info-hotspot-modal .info-hotspot-text {
+  font-size: 16px;   /* body text size */
+  line-height: 1.6;  /* improves readability */
+}
