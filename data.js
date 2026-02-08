@@ -272,4 +272,3 @@ var APP_DATA = {
     "viewControlButtons": true
   }
 };
-
