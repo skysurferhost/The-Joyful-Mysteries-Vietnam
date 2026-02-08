@@ -273,14 +273,42 @@ var APP_DATA = {
   }
 };
 
-/* Bigger text in the info hotspot content */
+/* =========================================================
+   Bigger Info Hotspot Text (Desktop + Mobile)
+   Paste at the VERY BOTTOM of style.css
+========================================================= */
+
+/* Desktop + general */
 .info-hotspot .info-hotspot-title,
 .info-hotspot-modal .info-hotspot-title {
-  font-size: 18px;   /* title size */
+  font-size: 18px !important;
+  font-weight: 600;
+  line-height: 1.25;
 }
 
 .info-hotspot .info-hotspot-text,
 .info-hotspot-modal .info-hotspot-text {
-  font-size: 16px;   /* body text size */
-  line-height: 1.6;  /* improves readability */
+  font-size: 16px !important;
+  line-height: 1.65;
+}
+
+/* Optional: make links inside hotspot readable */
+.info-hotspot .info-hotspot-text a,
+.info-hotspot-modal .info-hotspot-text a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Mobile: even larger */
+@media (max-width: 768px) {
+  .info-hotspot .info-hotspot-title,
+  .info-hotspot-modal .info-hotspot-title {
+    font-size: 20px !important;
+  }
+
+  .info-hotspot .info-hotspot-text,
+  .info-hotspot-modal .info-hotspot-text {
+    font-size: 18px !important;
+    line-height: 1.75;
+  }
 }
