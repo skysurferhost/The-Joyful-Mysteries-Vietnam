@@ -106,7 +106,7 @@ var APP_DATA = {
     },
     {
       "id": "2-3-c-b-sinh-c-cha-gisu-ni-hang-",
-      "name": "3. Đức Bà Sinh Đức Chúa Giêsu Nơi Hang Đá",
+      "name": "3. Đức Bà Sinh Đức Chúa Giê-su Nơi Hang Đá",
       "levels": [
         {
           "tileSize": 256,
@@ -161,7 +161,7 @@ var APP_DATA = {
     },
     {
       "id": "3-4-c-b-dng-c-cha-gisu-trong-n-thnh",
-      "name": "4. Đức Bà Dâng Đức Chúa Giêsu Trong Đền Thánh",
+      "name": "4. Đức Bà Dâng Đức Chúa Giê-su Trong Đền Thánh",
       "levels": [
         {
           "tileSize": 256,
@@ -216,7 +216,7 @@ var APP_DATA = {
     },
     {
       "id": "4-5-c-b-tm-c-c-cha-gisu-trong-n-thnh",
-      "name": "5. Đức Bà Tìm Được Đức Chúa Giêsu Trong Đền Thánh",
+      "name": "5. Đức Bà Tìm Được Đức Chúa Giê-su Trong Đền Thánh",
       "levels": [
         {
           "tileSize": 256,
