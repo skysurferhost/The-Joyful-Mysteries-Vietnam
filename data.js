@@ -258,7 +258,7 @@ var APP_DATA = {
         {
           "yaw": -0.15803943551415855,
           "pitch": -0.41004943600042054,
-          "title": "<p class=\"MsoNormal\"><span style=\"font-size: 14pt; line-height: 115%;\">Đức Giê-su ngồi giữa các bậc thầy Do-thái</span><o:p></o:p></p>",
+          "title": "<p class=\"MsoNormal\"><span style=\"font-size: 16pt; line-height: 115%;\">Đức Giê-su ngồi giữa các bậc thầy Do-thái</span><o:p></o:p></p>",
           "text": "<p class=\"MsoNormal\"><span style=\"font-size: 14pt; line-height: 115%;\">Hằng năm, cha mẹ Đức Giê-su trẩy hội đền\nGiê-ru-sa-lem mừng lễ Vượt Qua. Khi Người được mười hai tuổi, cả gia đình cùng lên đền, như người ta thường làm trong ngày lễ. Xong kỳ lễ, hai ông bà trở về, còn cậu bé Giê-su thì ở lại Giê-ru-sa-lem, mà cha mẹ chẳng hay biết. Ông bà cứ tưởng là cậu về chung với đoàn lữ hành, nên sau một ngày đường, mới đi tìm kiếm giữa đám bà con và người quen thuộc. Không thấy con đâu, hai ông bà trở lại Giê-ru-sa-lem mà tìm.</span><o:p></o:p></p><p class=\"MsoNormal\"><br></p><p class=\"MsoNormal\"><span style=\"font-size: 14pt; line-height: 115%;\">Sau ba ngày, hai ông bà mới tìm thấy con trong Đền Thờ, đang ngồi giữa các thầy dạy, vừa nghe họ, vừa đặt câu hỏi. Ai nghe cậu nói cũng ngạc nhiên về trí thông minh và những lời đối đáp của cậu. Khi thấy con, hai ông bà sửng sốt, và mẹ Người nói với Người: “Con ơi, sao con lại xử với cha mẹ như vậy? Con thấy không, cha con và mẹ đây đã phải cực lòng tìm con!” Người đáp: “Sao cha mẹ lại tìm con? Cha mẹ không biết là con có bổn phận ở nhà của Cha con sao?” Nhưng ông bà không hiểu lời Người vừa nói.<o:p></o:p></span></p><p class=\"MsoNormal\"><span style=\"font-size: 14pt; line-height: 115%;\">(Luca 2:41-50)</span></p>"
         }
       ]
