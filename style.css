@@ -503,7 +503,7 @@ body.single-scene #sceneListToggle {
   left: 40px;
   top: 0;
   width: 0;
-  height: 52px;
+  height: 53px;
   padding: 0;
   overflow: hidden;
   -webkit-transition: width 0s 0.4s,
@@ -543,7 +543,7 @@ body.single-scene #sceneListToggle {
   position: absolute;
   left: 420px;
   top: 0;
-  height: 52px;
+  height: 53px;
   width: 40px;
   border-top-right-radius: 5px;
   background-color: rgb(78,88,104);
@@ -591,7 +591,7 @@ body.single-scene #sceneListToggle {
   width: 460px;
   height: auto;
   max-height: 300px;
-  top: 52px;
+  top: 53px;
   left: 0;
   padding: 10px;
   background-color: rgb(58,68,84);
